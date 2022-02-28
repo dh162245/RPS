@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 30%;
+   background: url('https://img5.goodfon.com/wallpaper/nbig/c/f0/girl-red-eyes-white-hair-long-hair-necklace-dark-simple-back.jpg');
+   
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+input{
+    margin: 20px 0 20px 20px;
+    width: 20px;
+    height: 20px;
+}
+
+label{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding-bottom: 400px;
+    color: #fff;
+}
+
+.buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 1rem 3rem 1rem;
+}
+button{
+    width: 125px;
+    height: 125px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px #fff;
+    transition: 0.3s ease;
+}
+
+.restart{
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#rock{
+    background: url('../img/rock.jpg') no-repeat center/cover;
+    
+}
+
+#paper{
+    background: url('https://s2.favim.com/orig/160112/aesthetic-black-grunge-hand-Favim.com-3873811.jpg') no-repeat center/cover;
+}
+
+#scissors{
+    background: url('https://image.shutterstock.com/image-photo/black-hand-showing-peace-sign-600w-362803748.jpg') no-repeat center/cover;
+}
+
+p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 3rem;
+    
+}
